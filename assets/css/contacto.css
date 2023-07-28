@@ -1,0 +1,70 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-left: 5rem;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.input-padron{
+    width: 50%;
+    padding: 1rem 0.5rem;
+    outline-color: palevioletred;
+    font-size: 1.2rem;
+}
+
+.contacto{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contacto-radio{
+    display: flex;
+    flex-direction: column;
+}
+
+.enviar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #FFDAC1;
+    color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: lavenderblush;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .formulario{
+        padding-left: 1.5rem;
+    }
+
+    .input-padron{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .formulario{
+        padding-left: 1.5rem;
+    }
+
+    .input-padron{
+        width: 90%;
+    }
+
+}
